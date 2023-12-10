@@ -257,3 +257,26 @@
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
+  
+  .skills_list_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .skill {
+    color: white;
+    width: 20%;
+    background-color: #ff9a00;
+    margin: 5px;
+    padding-left: 10px;
+    text-shadow: 0 0 1px black;
+    border-radius: 5px;
+  }
+  .skill p:nth-child(1){
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .skill p:nth-child(2){
+    font-size: 12px;
+  }
