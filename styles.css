@@ -244,17 +244,17 @@
     color: var(--secondary-text-color);
   }
   
-  .additional-info__languages {
+  .additional-info__languages,.additional-info__hobbies {
     margin-bottom: 20px;
   }
   
-  .additional-info__languages-header {
+  .additional-info__languages-header,.additional-info__hobbies-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
   }
   
-  .additional-info__languages-item {
+  .additional-info__languages-item,.additional-info__hobbies-item {
     color: var(--secondary-text-color);
   }
   
@@ -274,7 +274,7 @@
     padding-left: 10px;
     text-shadow: 0 0 1px #5c5c62;
     border-radius: 10px;
-    border: 1px solid #5c5c62;
+    box-shadow: 0 0 5px #5c5c62;
   }
   .skill p:nth-child(1){
     font-weight: bold;
@@ -286,6 +286,7 @@
   .experience_item {
     display: flex;
     margin: 20px 0;
+    color: #5c5c62;
   }
   .experience_dates {
     width: 80px;
