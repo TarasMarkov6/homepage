@@ -166,7 +166,7 @@
   }
   .experiences {
     flex: 1 1 60%;
-    margin-right: 50px;
+    margin-right: 25px;
   }
   
   .experiences__header {
@@ -282,4 +282,16 @@
   }
   .skill p:nth-child(2){
     font-size: 12px;
+  }
+  .experience_item {
+    display: flex;
+    margin: 20px 0;
+  }
+  .experience_dates {
+    width: 80px;
+    padding: 0 10px 10px 0;
+    border-right: 1px dashed #5c5c62;
+  }
+  .experience_description {
+    padding: 0 10px;
   }
