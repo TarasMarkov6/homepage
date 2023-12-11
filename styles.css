@@ -164,12 +164,12 @@
     color: var(--secondary-text-color);
     text-align: justify;
   }
-  .experiences {
+  .experiences,.education {
     flex: 1 1 60%;
     margin-right: 25px;
   }
   
-  .experiences__header {
+  .experiences__header,.education_header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
@@ -283,16 +283,16 @@
   .skill p:nth-child(2){
     font-size: 12px;
   }
-  .experience_item {
+  .experience_item,.education_item {
     display: flex;
     margin: 20px 0;
     color: #5c5c62;
   }
-  .experience_dates {
+  .experience_dates,.education_dates {
     width: 80px;
     padding: 0 10px 10px 0;
     border-right: 1px dashed #5c5c62;
   }
-  .experience_description {
+  .experience_description,.education_description {
     padding: 0 10px;
   }
